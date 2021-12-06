@@ -5,70 +5,68 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  position: relative;
-
-}
-
-.logo {
-  width: 183px;
-  height: 32px;
-  }
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 1;
-}
-
 .link {
   text-decoration: none;
   color: #2f80ed;
 }
 
+.header {
+  display: flex;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
 .header__title {
   display: flex;
   width: 730px;
-  text-align: center;
   margin-left: 64px;
-  border: 5px solid red;
-
+  align-self: center;
+  z-index: 2;
 }
 
-.header__title_text {
+.header__title_text_h1 {
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
 }
 
-.subtitle {
+.header__subtitle {
   display: flex;
   position: absolute;
   width: 388px;
+  margin: 0;
   left: 64px;
   bottom: 30px;
-  z-index: 1;
+  z-index: 2;
 }
 
-.subtitle__h2 {
+.header__subtitle-text {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 
-.subtitle__link {
+.header__link {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -85,32 +83,32 @@
   height: 608px;
   right: 0;
   bottom: 0;
+  z-index: 1;
 }
 
 .description {
 display: flex;
+border: 2px solid orange;
 }
 
 .two-columns {
 display: flex;
-flex-wrap: wrap;
 width: 80%;
 margin: 100px auto;
 flex-direction: row;
 justify-content: space-between;
-border: 5px solid red;
-align-items: flex-start;
+border: 2px solid red;
 }
 
 .two-columns__brief {
   width: 175px;
-  border: 5px solid red;
+  border: 2px solid red;
   margin: 0;
   height: 100%;
 
 }
 
-.two-columns__brief_link {
+.two-columns__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -119,22 +117,36 @@ align-items: flex-start;
 
 .two-columns__main-text {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  border: 5px solid red;
+  justify-content: space-between;
+  border: 2px solid red;
   width: 80%;
   min-width: 784px;
 
 }
 
 .two-columns__paragraph {
+  display: flex;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  border: 2px solid red;
+
+}
+
+.two-columns__paragraph:first-of-type {
+  margin-bottom: 20px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-top: 20px;
 }
 
 .two-columns_span-accent {
   line-height: 34px;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .digits {
@@ -219,6 +231,7 @@ align-items: flex-start;
   position: relative;
   text-align: center;
   margin-top: 100px;
+  background-color: #f2f2f2;
   border: 5px solid red;
 }
 
