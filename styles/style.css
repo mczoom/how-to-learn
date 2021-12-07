@@ -8,6 +8,7 @@
 .flex-column {
   display: flex;
   flex-direction: column;
+  justify-content: start;
 }
 
 .link {
@@ -37,7 +38,6 @@
 }
 
 .header__title {
-  display: flex;
   width: 730px;
   margin-left: 64px;
   align-self: center;
@@ -51,7 +51,6 @@
 }
 
 .header__subtitle {
-  display: flex;
   position: absolute;
   width: 388px;
   margin: 0;
@@ -142,7 +141,6 @@
 }
 
 .two-columns_span-accent {
-  display: flex;
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -298,7 +296,6 @@
 }
 
 .kaufman__triangle {
-  display: flex;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -328,7 +325,6 @@
 }
 
 .logo_place_footer {
-  display: flex;
   height: 35px;
 }
 
