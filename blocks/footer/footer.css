@@ -1,0 +1,8 @@
+.footer {
+  position: relative;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  color: #f2f2f2;
+}
