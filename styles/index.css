@@ -47,6 +47,63 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/two-columns/_pading/two-columns_pading_large.css);
+@import url(../blocks/two-columns/__paragraph/_margin/two-columns__paragraph_margin_no.css);
+@import url(../blocks/two-columns/__paragraph/_margin/two-columns__paragraph_margin_yes.css);
+
+
+
+.video__iframes {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 0;
+
+}
+
+.video__iframe {
+  margin-bottom: -60px;
+}
+
+.video__iframe:first-of-type {
+  margin-right: 20px;
+}
+
+.oakley {
+  display: flex;
+  margin: 0 auto 0;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

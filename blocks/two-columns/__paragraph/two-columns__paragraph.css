@@ -1,12 +1,7 @@
 .two-columns__paragraph {
   display: flex;
   margin: 0;
+  padding: 0;
 }
 
-.two-columns__paragraph:first-of-type {
-  margin-bottom: 20px;
-}
 
-.two-columns__paragraph:last-of-type {
-  margin-top: 20px;
-}
