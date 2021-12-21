@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/flex-column/flex-column.css);
 @import url(../blocks/link/link.css);
@@ -55,8 +56,6 @@
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/video/video.css);
-@import url(../blocks/two-columns/_pading/two-columns_pading_large.css);
-@import url(../blocks/two-columns/__paragraph/_margin/two-columns__paragraph_margin_no.css);
 @import url(../blocks/two-columns/__paragraph/_margin/two-columns__paragraph_margin_yes.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
@@ -74,6 +73,7 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/two-columns/_margin/two-columns_margin-top_large.css);
 
 
 

@@ -1,8 +1,8 @@
-/*.two-columns__paragraph:first-of-type {
+.two-columns__paragraph_margin_yes:first-of-type {
   margin-bottom: 30px;
 }
 
-.two-columns__paragraph:last-of-type {
+.two-columns__paragraph_margin_yes:last-of-type {
   margin-top: 30px;
 }
-*/
+
