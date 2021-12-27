@@ -2,5 +2,6 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  min-width: 920px;
+  width: 920px;
+  column-gap: 100px;
 }
