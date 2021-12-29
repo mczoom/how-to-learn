@@ -1,4 +1,5 @@
 .section-title_theme_dark {
   margin-top: 90px;
   color: #f2f2f2;
+  z-index: 1;
 }
