@@ -6,3 +6,6 @@
 - HTML
 - CSS
 - БЭМ
+
+## Ссылка на страницу:
+https://mczoom.github.io/how-to-learn/
